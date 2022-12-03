@@ -1,6 +1,7 @@
+export { };
 var fs = require("fs");
 
-const readFileAsync = fs.readFileSync("input.txt", "utf8");
+const readFileAsync = fs.readFileSync("input1.txt", "utf8");
 const allLines = readFileAsync.split(/\r\n|\n/);
 
 let mostCalories = 0;
